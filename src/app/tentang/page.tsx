@@ -24,7 +24,7 @@ const Page: React.FC = () => {
                   Tentang Kami
                 </h2>
                 <h3 className="text-gray-800 text-[12px]  md:text-[18px] text-justify  pt-2 ">
-                  Kami adalah perusahaan yang berfokus pada penjualan sabun
+                  Kami adalah pengusaha yang berfokus pada penjualan sabun
                   berkualitas tinggi yang ramah lingkungan dan aman untuk kulit.
                 </h3>
               </div>

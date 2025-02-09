@@ -15,7 +15,7 @@ const productsTerlaris = [
     img: "/sabun-sunfia-a.webp",
     title: "Sabun Pel Harum Sereh Original",
     desc: "Sabun untuk lantai",
-    rating: 3,
+    rating: 5,
     stok: 15,
     price: "55000",
     category: "Sabun Serbaguna",
@@ -39,7 +39,7 @@ const productsTerlaris = [
     category: "Pemutih",
   },
   {
-    img: "/sabun-batang/sabun-1.webp",
+    img: "/sabun/sabun-1.webp",
     title: "Sabun Batang Daun Kelor Original",
     desc: "testing testing testing",
     rating: 5,
@@ -64,7 +64,7 @@ const productsData = [
     img: "/sabun-sunfia-a.webp",
     title: "Sabun Pel Harum Sereh Original",
     desc: "Sabun untuk lantai",
-    rating: 3,
+    rating: 5,
     stok: 15,
     price: "55000",
     category: "Sabun Serbaguna",
@@ -98,7 +98,7 @@ const productsData = [
   },
   //sabun batang
   {
-    img: "/sabun-batang/sabun-1.webp",
+    img: "/sabun/sabun-1.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -107,7 +107,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-2.webp",
+    img: "/sabun/sabun-2.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -116,7 +116,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-3.webp",
+    img: "/sabun/sabun-3.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -125,7 +125,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-4.webp",
+    img: "/sabun/sabun-4.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -134,7 +134,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-5.webp",
+    img: "/sabun/sabun-5.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -143,7 +143,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-6.webp",
+    img: "/sabun/sabun-6.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -152,7 +152,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-7.webp",
+    img: "/sabun/sabun-7.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -161,7 +161,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-8.webp",
+    img: "/sabun/sabun-8.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -170,7 +170,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-9.webp",
+    img: "/sabun/sabun-9.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -179,7 +179,7 @@ const productsData = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-10.webp",
+    img: "/sabun/sabun-10.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -287,7 +287,7 @@ const BuahBuahan = [
 ];
 const SabunBatang = [
   {
-    img: "/sabun-batang/sabun-1.webp",
+    img: "/sabun/sabun-1.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -296,7 +296,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-2.webp",
+    img: "/sabun/sabun-2.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -305,7 +305,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-3.webp",
+    img: "/sabun/sabun-3.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -314,7 +314,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-4.webp",
+    img: "/sabun/sabun-4.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -323,7 +323,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-5.webp",
+    img: "/sabun/sabun-5.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -332,7 +332,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-6.webp",
+    img: "/sabun/sabun-6.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -341,7 +341,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-7.webp",
+    img: "/sabun/sabun-7.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -350,7 +350,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-8.webp",
+    img: "/sabun/sabun-8.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -359,7 +359,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-9.webp",
+    img: "/sabun/sabun-9.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
@@ -368,7 +368,7 @@ const SabunBatang = [
     category: "Sabun Batang",
   },
   {
-    img: "/sabun-batang/sabun-10.webp",
+    img: "/sabun/sabun-10.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
