@@ -33,7 +33,7 @@ const Page: React.FC = () => {
               <Image
                 className="w-[100%] h-[250px] lg:h-[480px] md:h-[300px] object-cover  "
                 style={{ objectPosition: "25% 65%" }}
-                src={"/sabunBatang.jpeg"}
+                src={"/sabunBatang.webp"}
                 alt="banner"
                 width={2000}
                 height={2000}
