@@ -2,8 +2,6 @@
 
 import React from "react";
 import ProductCard from "../ProductCard";
-import { useRouter } from "next/navigation";
-import { useSession } from "next-auth/react";
 import Link from "next/link";
 
 const productsData = [

@@ -13,10 +13,7 @@ interface Props {
 
 const Nav = ({ open }: Props) => {
   const [navSticky, setNavSticky] = useState(false);
-  const [darkMode] = useState(false);
-  // const toggleDarkMode = () => {
-  //   setDarkMode(!darkMode);
-  // };
+
 
   useEffect(() => {
     const handler = () => {

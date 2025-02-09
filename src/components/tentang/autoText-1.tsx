@@ -1,8 +1,8 @@
 "use client";
 
 import { PlusIcon } from "@heroicons/react/16/solid";
-import { animate, motion, useMotionValue, useTransform } from "motion/react";
-import { useEffect } from "react";
+import { motion, useMotionValue, useTransform } from "motion/react";
+
 
 export default function Auto1() {
   const count = useMotionValue(0);

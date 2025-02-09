@@ -14,16 +14,6 @@ interface propsType {
   rating: number;
 }
 
-//untuk HIT API
-// interface propsType {
-//   img: string;
-//   nama_produk: string;
-//   deskripsi_produk: string;
-//   harga: string;
-//   stok: number;
-//   barcode: string;
-//   rating: number;
-// }
 const generateRating = (rating: number) => {
   switch (rating) {
     case 1:
@@ -89,9 +79,6 @@ const ProductCard: React.FC<propsType> = ({
   price,
   stok,
   rating,
-  // nama_produk,
-  // deskripsi_produk,
-  // harga,stok,barcode,rating
 }) => {
   return (
     <div className="border border-gray-200 rounded-lg w-full max-w-[440px] h-[350px] shadow-md flex flex-col items-center  justify-between ">

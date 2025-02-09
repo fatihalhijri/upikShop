@@ -11,10 +11,6 @@ import Nav from "../components/Navbar/Navbar";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "600"] });
 
-export const metadata = {
-  title: "Upik Shop E-commerce",
-  description: "Usaha Jual Sabun Serba Guna",
-};
 
 export default function RootLayout({
   children,

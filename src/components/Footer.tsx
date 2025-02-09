@@ -15,9 +15,6 @@ const Footer = () => {
             Selalu siap untuk Produk baru dan kolaborasi yang menantang. Saya
             percaya kolaborasi adalah kunci untuk solusi berkelanjutan. 
           </h1>
-          {/* <p className="mt-[1.3rem] text-primary underline font-semibold ">
-            example@gmail.com
-          </p> */}
         </div>
         <div className="md:mx-auto">
           <h1 className="text-black/70 font-semibold mb-[1.4rem] text-lg ">

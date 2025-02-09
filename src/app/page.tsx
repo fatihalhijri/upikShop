@@ -1,12 +1,5 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
-import { ArrowRightCircleIcon } from "@heroicons/react/16/solid";
-
-import MenuSide from "../components/MenuSide";
-import Header from "../components/Beranda/Header";
-import Slide from "../components/Slide";
-
 import HeroSlide from "../components/Hero";
 import Hero from "../components/Beranda/Hero";
 import NewProducts from "../components/produk/NewProducts";
