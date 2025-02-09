@@ -14,15 +14,15 @@ export default function Page() {
 
   const dataImage = [
     { img: "/allkategori.jpg", kategori: "Semua Kategori" },
-    { img: "/sabun-sunfia-a.webp", kategori: "Sabun Cuci Serbaguna" },
-    { img: "/buahbg.png", kategori: "BuahBuahan" },
+    { img: "/sabun-sunfia-a.webp", kategori: "Sabun Serbaguna" },
+    { img: "/buahbg.png", kategori: "Buah-Buahan" },
     { img: "/sabun-b.jpg", kategori: "Sabun Batang" },
   ];
   return (
-    <div className="h-full w-full pt-20 px-2 md:px-16 lg:px-36">
+    <div className="h-full w-full pt-20 px-6 md:px-20 lg:px-36">
       <div className="">
         <div className="">
-          <div className="container grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-6 py-10">
+          <div className=" grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-6 py-10">
             {dataImage.map((category, index) => (
               <div
                 key={index}

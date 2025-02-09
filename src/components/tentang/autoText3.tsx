@@ -15,7 +15,7 @@ export default function Auto3() {
 
   return (
     <>
-      <div className="px-6 py-4 md:py-7 bg-white border rounded-lg shadow-md hover:shadow-lg transition flex flex-col justify-center items-center">
+      <div className="max-h-40 h-40 px-6 py-4 md:py-7 bg-white border rounded-lg shadow-md hover:shadow-lg transition flex flex-col justify-center items-center">
         <div className="flex flex-row md:items-end  items-center justify-center md:text-5xl text-3xl  font-bold ">
           <motion.pre className=" ">{rounded}</motion.pre>{" "}
           <span className="md:text-2xl text-base flex justify-center items-center"></span>

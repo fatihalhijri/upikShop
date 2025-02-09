@@ -17,7 +17,7 @@ const Headermain = () => {
 
   return (
     <div className="border-b border-gray-200 py-6">
-      <div className="container flex flex-wrap justify-between items-center gap-8">
+      <div className=" flex flex-wrap justify-between items-center gap-8">
         <div className="font-bold text-4xl text-center text-blackish">
           <h2 className="text-accent">SUNFIA</h2>
         </div>
@@ -38,7 +38,6 @@ const Headermain = () => {
             <Link href="#" className="navbar__link">
               HOME
             </Link>
-            {/* Dropdown menu */}
 
             <div className="absolute left-0 hidden group-hover:block bg-white shadow-md rounded-md p-2 min-w-[150px] z-10 ">
               <Link href="#" className="block px-4 py-2 hover:bg-gray-100">

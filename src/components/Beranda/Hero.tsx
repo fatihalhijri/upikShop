@@ -8,45 +8,46 @@ export default function Hero() {
   };
 
   return (
-    <section className="md:mt-36  w-full   container mx-auto  md:py-5 px-6 md:px-20 lg:px-36">
+    <section className="md:mt-36  w-full mx-auto  md:py-5 px-6 md:px-20 lg:px-36">
       <div className="flex justify-center md:h-auto h-screen items-center">
         <div className="flex md:flex-row flex-col-reverse items-center justify-between gap-12">
           {/* Section Text */}
-          <div className="w-full md:w-1/2 text-center md:text-left flex flex-col">
-            <h2 className="font-bold text-3xl md:text-4xl text-blackish leading-snug">
+          <div className="w-full lg:w-1/2 lg:text-left md:text-center text-center  flex flex-col">
+            <h2 className="lg:font-bold md:font-semibold sm:font-medium  text-3xl xl:text-5xl lg:text-4xl md:text-4xl text-blackish leading-snug">
               Cuci Apa Saja dengan Sabun Serba Guna Kami. Beli Sekarang!
             </h2>
-            <p className="md:text-lg text-sm pt-6 text-gray-600 text-justify">
+            <p className="md:text-lg text-sm pt-6 text-gray-600 lg:text-justify md:text-center text-center">
               Selamat datang di sunfia, tempat anda dapat menemukan sabun
               berkualitas,sayur,dan buah buahan dengan harga terjangkau
             </p>
-            <div className="flex lg:flex-row md:flex-col flex-col  justify-start md:gap-5 gap-2">
+            <div className="flex xl:flex-row lg:flex-col md:flex-col sm:flex-col flex-col justify-center sm:justify-start gap-3 xl:gap-5 lg:gap-3 md:gap-2">
+              {/* Tombol Kirim Pesan */}
               <button
                 onClick={handleClick}
-                className="mt-8 px-6 py-1 md:py-3 md:rounded-full rounded-md bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center"
+                className="mt-6 px-4 lg:px-6   py-2  rounded-md  bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center w-full sm:w-auto"
               >
-                <p className="text-white md:text-lg flex justify-between gap-5  items-center text-center ">
-                  Kirim Pesan Sekarang
-                  <ArrowRightCircleIcon className="h-8 w-8" />
+                <p className="text-white text-sm sm:text-lg flex items-center gap-3">
+                  Pesan Sekarang
+                  <ArrowRightCircleIcon className="h-6 w-6 sm:h-8 sm:w-8" />
                 </p>
               </button>
-              <Link href={"/kategori"}>
-                <button className="mt-8 px-6 py-1 md:py-3 md:rounded-full rounded-md bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center">
-                  <p className="text-white md:text-lg flex justify-between gap-5  items-center text-center ">
-                    Lihat Lebih Banyak
-                    <ArrowRightCircleIcon
-                      height={18}
-                      width={18}
-                      className="h-8 w-8"
-                    />
-                  </p>
-                </button>
-              </Link>
+
+              {/* Tombol Lihat Lebih Banyak */}
+              <div>
+                <Link href={"/kategori"}>
+                  <div className="mt-6 px-4 lg:px-6 py-2 rounded-md  bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center w-full sm:w-auto">
+                    <p className="text-white text-sm sm:text-lg flex items-center gap-3">
+                      Lihat Lainnya
+                      <ArrowRightCircleIcon className="h-6 w-6 sm:h-8 sm:w-8" />
+                    </p>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
 
           {/* Section Image */}
-          <div className="w-56 lg:h-1/4  lg:w-1/4 hidden md:flex justify-end items-end ">
+          <div className="md:w-56  lg:h-1/4  lg:w-1/4  lg:flex md:hidden sm:hidden hidden  justify-center items-end ">
             <Image
               alt="sabun"
               src={"/sabun.webp"}

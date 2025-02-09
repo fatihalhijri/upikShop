@@ -99,11 +99,11 @@ const Contact = () => {
   return (
     <div className="w-full max-h-full bg-gray-50">
       <Toaster position="top-center" reverseOrder={false} />
-      <div className="md:pt-40 pt-32 pb-[3rem] md:py-8 flex flex-col items-center justify-center">
+      <div className="md:pt-40 pt-32 px-6 md:px-20 lg:px-36 pb-[3rem] md:py-8 flex flex-col items-center justify-center">
         <h2 className="font-medium md:font-semibold text-center md:text-2xl lg:text-3xl text-black/80 text-xl py-4  uppercase ">
           Kontak Kami
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center  mx-auto ">
           <div>
             <p
               className="text-base text-black/70  font-semibold opacity-75"

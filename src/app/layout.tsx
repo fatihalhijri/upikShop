@@ -35,19 +35,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        {/* <NextAuthProvider session={session}> */}
-          {/* <ReactQuery> */}
-            <Nav open={showNavHandler} />
-            <NavMobile showNav={showNav} closeNav={closeNavHandler} />
+        <Nav open={showNavHandler} />
+        <NavMobile showNav={showNav} closeNav={closeNavHandler} />
 
-            {/* <Headermain /> */}
-
-            {/* <Navbar/> */}
-            <MobNavbar />
-            {children}
-            <Footer />
-          {/* </ReactQuery> */}
-        {/* </NextAuthProvider> */}
+        {/* <MobNavbar /> */}
+        {children}
+        <Footer />
       </body>
     </html>
   );

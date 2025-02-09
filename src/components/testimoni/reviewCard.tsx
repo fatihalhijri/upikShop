@@ -6,12 +6,13 @@ interface Props {
   img: string;
   user: string;
   role: string;
+  desc: string;
 }
 
-const ClientReviewCard = ({ img, user, role }: Props) => {
+const ClientReviewCard = ({ img, user, role,desc }: Props) => {
   return (
-    <div className="m-4 bg-gray-200  rounded-xl shadow-lg hover:-rotate-3 transform transition-all duration-300 ease-out ">
-      <div className="relative p-6">
+    <div className=" bg-gray-200 h-full  rounded-xl  transform transition-all duration-300 ease-out ">
+      <div className="relative p-6 ">
         {/* Background Sparkle */}
         <SparklesIcon className="absolute top-8 left-6 w-20 h-20 text-primary opacity-10 pointer-events-none" />
         <SparklesIcon className="absolute bottom-4 right-4 w-16 h-16 text-primary opacity-10 pointer-events-none" />
@@ -27,8 +28,7 @@ const ClientReviewCard = ({ img, user, role }: Props) => {
 
         {/* Review Text */}
         <p className="text-sm text-gray-600  mt-4 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dicta
-          esse hic doloribus fugit consequuntur alias rem distinctio nihil nam!
+          {desc}
         </p>
 
         {/* Stars */}

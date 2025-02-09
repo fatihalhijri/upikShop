@@ -9,7 +9,7 @@ import Link from "next/link";
 const productsData = [
   {
     img: "/sabun-sunfia-b.webp",
-    title: "Jeruk Nipis Segar Australia 1KG",
+    title: "Jeruk Nipis Segar Australia 1KG test test test test test",
     desc: "nipis -1",
     rating: 4,
     stok: 4,
@@ -41,7 +41,7 @@ const productsData = [
   },
   {
     img: "/nipis_bg.webp",
-    title: "Jeruk Nipis Segar Australia 1KG",
+    title: "Jeruk Nipis Segar Australia 1KG AAAAAAAAAAAAAAAAAAA AAAAa",
     desc: "nipis -1",
     rating: 1,
     stok: 4,
@@ -58,19 +58,22 @@ const productsData = [
 ];
 
 const NewProducts = () => {
-
   return (
     <div className="h-auto">
-      <div className="container pt-16 py-10  px-6 md:px-20 lg:px-36">
-        <div className="flex justify-between items-center pb-4">
-          <h2 className="font-medium text-2xl  uppercase">Produk Terlaris</h2>
-          <Link href={"/kategori"}>
-            <h2 className="font-medium text-lg   underline text-blue-600">
-              Lihat Lainnya
-            </h2>
-          </Link>
+      <div className=" pt-16 py-10 px-6 md:px-20 lg:px-36">
+        <div className="flex justify-between items-end pb-4">
+          <h2 className="font-medium md:text-2xl uppercase">
+            Produk Terlaris
+          </h2>
+          <div className="font-medium md:text-lg underline text-blue-600">
+            <Link href={"/kategori"}>
+              <h2 className="">
+                Lihat Lainnya
+              </h2>
+            </Link>
+          </div>
         </div>
-        <div className="grid grid-cols-2    md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4   ">
+        <div className="grid grid-cols-2    md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 xl:gap-6 lg:gap-4 md:gap-3 gap-2   ">
           {productsData.map((item, index) => (
             <ProductCard
               key={index}
@@ -82,7 +85,6 @@ const NewProducts = () => {
               rating={item.rating}
             />
           ))}
-          
         </div>
       </div>
     </div>

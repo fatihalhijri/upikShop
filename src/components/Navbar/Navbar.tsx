@@ -37,19 +37,17 @@ const Nav = ({ open }: Props) => {
     : "";
   return (
     <div
-      className={`fixed w-[100%]  ${stickyStyle} transition-all duration-0 z-[1000] 
+      className={`fixed  ${stickyStyle} transition-all w-full z-[1000] 
        `}
     >
       <HeaderTop />
-      <div className="flex items-center h-[8vh] justify-between mx-auto   w-[100%] px-6 md:px-20 lg:px-40 ">
-        <div className=" text-center ">
-          <h2 className="text-accent cursor-pointer font-bold md:text-4xl text-2xl ">
-            {" "}
-            <Link href={"/"}>SUNFIA</Link>{" "}
-          </h2>
-        </div>
+      <div className="flex items-center h-[8vh] justify-between  px-6 md:px-20 lg:px-36 ">
+        <h2 className="text-accent cursor-pointer font-bold md:text-4xl text-2xl ">
+          {" "}
+          <Link href={"/"}>SUNFIA</Link>{" "}
+        </h2>
         <div className="hidden lg:block">
-          <div className="container">
+          <div className="">
             <div className="flex w-fit gap-10 mx-auto font-medium py-4 text-blackish">
               <div className="relative group ">
                 <Link href="/" className="navbar__link cursor-pointer">
@@ -57,7 +55,10 @@ const Nav = ({ open }: Props) => {
                 </Link>
               </div>
 
-              <Link href={"/tentang"} className="navbar__link cursor-pointer relative">
+              <Link
+                href={"/tentang"}
+                className="navbar__link cursor-pointer relative"
+              >
                 TENTANG
               </Link>
               {/* <div className="relative group">
@@ -73,13 +74,18 @@ const Nav = ({ open }: Props) => {
                   </Link>
                 </div>
               </div> */}
-              <Link href={"/kategori"} className="navbar__link cursor-pointer relative">
+              <Link
+                href={"/kategori"}
+                className="navbar__link cursor-pointer relative"
+              >
                 KATEGORI
               </Link>
-              <Link href={"/kontak"} className="navbar__link cursor-pointer relative">
+              <Link
+                href={"/kontak"}
+                className="navbar__link cursor-pointer relative"
+              >
                 KONTAK
               </Link>
-              
             </div>
           </div>
         </div>

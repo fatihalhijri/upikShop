@@ -11,43 +11,52 @@ const responsive = {
 
 const ReviewSlider = () => {
   return (
-    <div className="bg-gray-100  md:py-12 py-5  -z-10">
-      <div className="px-6 md:px-20 lg:px-36">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 px-6 md:px-20 lg:px-36">
+    <div className="bg-gray-100  md:py-12 py-5 -z-10 px-6 md:px-20 lg:px-32 ">
+      <div className="">
+        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 ">
           Testimoni
         </h2>
         <Carousel
+        
           responsive={responsive}
           infinite
           autoPlay
           autoPlaySpeed={3000}
           arrows
           itemClass="md:px-4"
+          className="py-3"
         >
           <ClientReviewCard
             img="/1_2.jpg"
             user="Fatih Al Hijri"
-            role="Web Developer"
+            role="Pengusaha"
+            desc="Saya sangat puas dengan kualitas sabun yang saya beli di toko ini. Sabunnya sangat lembut dan wanginya enak!"
           />
           <ClientReviewCard
             img="/1_2.jpg"
             user="Ariiq Maazin Hibatullah"
-            role="FullStack Developer"
+            role="Juragan"
+            desc="Toko ini memiliki kualitas produk yang sangat baik, terutama sabun dan sayur-buahan.
+"
           />
           <ClientReviewCard
             img="/1_2.jpg"
             user="Abdul Aziz"
-            role="Graphic Designer"
+            role="Pemuda "
+            desc="Pelayanan di toko ini sangat ramah dan cepat, membuat pelanggan merasa puas dan nyaman.
+"
           />
           <ClientReviewCard
             img="/1_2.jpg"
             user="Muhammad Fiqri"
-            role="React Developer"
+            role="Pemuda"
+            desc="Saya sangat puas dengan kualitas sabun yang saya beli di toko ini. Sabunnya sangat lembut dan wanginya enak!"
           />
           <ClientReviewCard
             img="/1_2.jpg"
             user="Fathir Anafi"
-            role="UI/UX Designer"
+            role="Pemuda"
+            desc="Harga di toko ini sangat terjangkau dan kompetitif"
           />
         </Carousel>
       </div>

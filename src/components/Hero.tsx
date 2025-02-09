@@ -32,16 +32,16 @@ const HeroSlide = () => {
     },
     {
       id: 2,
-      img: "/makanan.webp",
-      title: "Trending Item",
-      mainTitle: "NEW FASHION SUMMER SALE",
-      price: "Rp.20",
+      img: "/sayurrr.webp",
+      title: "Buah Segar",
+      mainTitle: "Buah Dan Sayur Segar",
+      price: "Rp.25",
     },
   ];
 
   return (
-    <div className="px-6 md:px-20 lg:px-36 ">
-      <div className="container pt-6 lg:pt-0  md:h-[350px] h-[200] ">
+    <div className=" px-6 md:px-20 lg:px-36">
+      <div className=" pt-6 lg:pt-0  md:h-[350px] h-[200] ">
         <Slider {...settings}>
           {slideData.map((item) => (
             <Slide key={item.id} img={item.img} title={item.title} mainTitle={item.mainTitle} price={item.price} />

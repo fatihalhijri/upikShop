@@ -26,12 +26,12 @@ const Page: React.FC = () => {
         </div> */}
         <div>
           <div className="outline-none border-none relative  overflow-hidden ">
-            <div className=" absolute left-[30px] lg:left-[160px] md:left-[70px] lg:max-w-[650px]  md:max-w-[400px] max-w-[250px]  top-[50%] -translate-y-[50%] space-y-2 lg:space-y-4 bg-[#ffffffa2]  p-4 rounded-lg   ">
-              <div className="flex flex-col justify-center items-start text-left">
+            <div className=" absolute left-[30px] lg:left-[145px] md:left-[70px] lg:max-w-[650px]  md:max-w-[400px] max-w-[250px]  top-[50%] -translate-y-[50%] space-y-2 lg:space-y-4 bg-white/90  p-4 rounded-lg   "> 
+              <div className="flex flex-col justify-center items-start text-left ">
                 <h2 className="text-primary text-[24px] md:text-[30px] lg:text-[44px] font-bold leading-[1.2] ">
                   Tentang Kami
                 </h2>
-                <h3 className="text-gray-800 text-[12px]  md:text-[18px]  ">
+                <h3 className="text-gray-800 text-[12px]  md:text-[18px] text-justify  pt-2 ">
                   Kami adalah perusahaan yang berfokus pada penjualan sabun
                   berkualitas tinggi yang ramah lingkungan dan aman untuk kulit.
                 </h3>
@@ -49,10 +49,8 @@ const Page: React.FC = () => {
             </div>
           </div>
         </div>
-        <section className=" grid md:grid-cols-3 grid-cols-1 justify-between items-center  md:px-20 lg:px-40 px-6 w-full   py-12 gap-3 ">
-          {/* <h3 className="text-5xl font-bold">
-              Ikuti <span className="text-accent">Kami</span> <br /> Lebih Lanjut
-            </h3> */}
+        <section className=" grid md:grid-cols-3 grid-cols-1 justify-between items-center  px-6 md:px-20 lg:px-36 w-full   py-12 gap-3 ">
+          
           <Auto1 />
 
           <Auto2 />

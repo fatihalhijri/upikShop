@@ -4,14 +4,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="pt-[5rem] w-[100%] pb-[3rem] bg-black/10 shadow-black/20 shadow-sm ">
-      <div className=" px-6 md:px-20 lg:px-36 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] border-b-[1.4px] pb-5 border-gray-600 border-opacity-40 ">
+    <div className="pt-[5rem] w-[100%] pb-[3rem] bg-black/10 shadow-black/20 shadow-sm px-6 md:px-20 lg:px-36">
+      <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] border-b-[1.4px] pb-5 border-gray-600 border-opacity-40 ">
         <div>
-          <div className=" text-accent   text-[18px] font-medium text-lg">
+          <div className=" text-accent   text-[18px] font-medium uppercase text-lg">
             <span className="text-[30px] md:text-[40px] text-accent ">S</span>
             unfia
           </div>
-          <h1 className="text-base mt-[0.5rem] font-semibold text-black/70 opacity-70  ">
+          <h1 className="text-base mt-[0.5rem] font-normal text-black/70 opacity-70  ">
             Selalu siap untuk Produk baru dan kolaborasi yang menantang. Saya
             percaya kolaborasi adalah kunci untuk solusi berkelanjutan. 
           </h1>
@@ -64,7 +64,7 @@ const Footer = () => {
           
         </div>
       </div>
-      <div className="mt-[1.4rem] w-[80%] mx-auto text-black/70   opacity-70 ">
+      <div className="mt-[1.4rem]  mx-auto text-black/70   opacity-70 ">
         &#169; 2024 Upikshop
       </div>
     </div>
