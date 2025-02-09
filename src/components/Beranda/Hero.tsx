@@ -61,7 +61,7 @@ export default function Hero() {
                 width={400}
                 height={400}
                 className="h-[150px] w-[90px] lg:h-[200px] lg:w-[120px] md:h-[180px] md:w-[110px] "
-                alt={"sallad"}
+                alt={"Jeruk Nipis"}
               />
             </div>
             <div className="absolute top-[170px] right-0 -z-10">
@@ -70,7 +70,7 @@ export default function Hero() {
                 width={400}
                 className="h-[150px] w-[90px]  lg:h-[200px] lg:w-[120px] md:h-[180px] md:w-[110px] "
                 height={400}
-                alt={"sallad"}
+                alt={"Jeruk Nipis"}
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Hero() {
         <div className=" absolute left-0 right-0 w-full justify-start ">
           <div className="absolute left-0 -top-[100px] text-left -z-10">
             <Image
-              src={"/nipis-kiri.png"}
+              src={"/nipis-kiri.webp"}
               width={400}
               height={400}
               className="h-[150px] w-[90px] lg:h-[200px] lg:w-[120px] md:h-[180px] md:w-[110px] "
@@ -89,7 +89,7 @@ export default function Hero() {
           </div>
           <div className="absolute -top-[100px] right-0 -z-10">
             <Image
-              src={"/nipis-kanan.png"}
+              src={"/nipis-kanan.webp"}
               width={400}
               className="h-[150px] w-[90px]  lg:h-[200px] lg:w-[120px] md:h-[180px] md:w-[110px] "
               height={400}
