@@ -56,7 +56,7 @@ const ReviewSlider = () => {
             img="/1_2.jpg"
             user="Fathir Anafi"
             role="Pemuda"
-            desc="Harga di toko ini sangat terjangkau dan kompetitif"
+            desc="Harga di toko ini sangat terjangkau dan kompetitif 11"
           />
         </Carousel>
       </div>

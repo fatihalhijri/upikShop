@@ -36,19 +36,7 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
               TENTANG
             </Link>
 
-            {/* <div className="relative group">
-              <Link href="#" className="navbar__link">
-                Kategori
-              </Link>
-              <div className="absolute left-5 hidden group-hover:block bg-white shadow-md rounded-md p-2 min-w-[150px] z-10">
-                <Link href="#" className="block px-4 py-2 text-black hover:bg-gray-100">
-                  Clothing
-                </Link>
-                <Link href="#" className="block px-4 py-2 text-black hover:bg-gray-100">
-                  Accessories
-                </Link>
-              </div>
-            </div> */}
+           
             <Link href={"/kategori"} className="navbar__link relative">
               KATEGORI
             </Link>

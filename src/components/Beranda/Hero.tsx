@@ -21,7 +21,6 @@ export default function Hero() {
               berkualitas,sayur,dan buah buahan dengan harga terjangkau
             </p>
             <div className="flex xl:flex-row lg:flex-col md:flex-col sm:flex-col flex-col justify-center sm:justify-start gap-3 xl:gap-5 lg:gap-3 md:gap-2">
-              {/* Tombol Kirim Pesan */}
               <button
                 onClick={handleClick}
                 className="mt-6 px-4 lg:px-6   py-2  rounded-md  bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center w-full sm:w-auto"
@@ -32,7 +31,6 @@ export default function Hero() {
                 </p>
               </button>
 
-              {/* Tombol Lihat Lebih Banyak */}
               <div>
                 <Link href={"/kategori"}>
                   <div className="mt-6 px-4 lg:px-6 py-2 rounded-md  bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center w-full sm:w-auto">
@@ -45,8 +43,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-
-          {/* Section Image */}
           <div className="md:w-56  lg:h-1/4  lg:w-1/4  lg:flex md:hidden sm:hidden hidden  justify-center items-end ">
             <Image
               alt="sabun"

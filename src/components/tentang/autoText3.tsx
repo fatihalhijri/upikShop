@@ -1,17 +1,12 @@
 "use client";
 
-import { PlusIcon } from "@heroicons/react/16/solid";
-import { animate, motion, useMotionValue, useTransform } from "motion/react";
-import { useEffect } from "react";
+import {  motion, useMotionValue, useTransform } from "motion/react";
+
 
 export default function Auto3() {
   const count = useMotionValue(0);
   const rounded = useTransform(() => Math.round(count.get()));
 
-  useEffect(() => {
-    const controls = animate(count, 48, { duration: 14 });
-    return () => controls.stop();
-  }, []);
 
   return (
     <>

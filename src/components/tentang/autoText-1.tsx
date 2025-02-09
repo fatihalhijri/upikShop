@@ -8,10 +8,6 @@ export default function Auto1() {
   const count = useMotionValue(0);
   const rounded = useTransform(() => Math.round(count.get()));
 
-  useEffect(() => {
-    const controls = animate(count, 327, { duration: 9 });
-    return () => controls.stop();
-  }, []);
 
   return (
     <>

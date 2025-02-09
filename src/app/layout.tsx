@@ -38,7 +38,6 @@ export default function RootLayout({
         <Nav open={showNavHandler} />
         <NavMobile showNav={showNav} closeNav={closeNavHandler} />
 
-        {/* <MobNavbar /> */}
         {children}
         <Footer />
       </body>

@@ -16,8 +16,6 @@ export default function Page() {
   return (
     <section className="">
       <Hero />
-      {/* <MenuSide /> */}
-      {/* <About /> */}
       <HeroSlide />
       <NewProducts />
       <ReviewSlider />
@@ -32,7 +30,6 @@ export default function Page() {
           </h3>
           <Link href={"/kategori"}>
             <button
-              // onClick={handleClick}
               className=" px-6 py-1 md:py-3 md:rounded-full rounded-md bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center"
             >
               <p className="text-white md:text-lg flex justify-between gap-5  items-center text-center ">

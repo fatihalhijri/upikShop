@@ -5,7 +5,6 @@ import Image from "next/image";
 import Auto1 from "@/components/tentang/autoText-1";
 import Auto2 from "@/components/tentang/autoText2";
 import Auto3 from "@/components/tentang/autoText3";
-import SectionAbout from "@/components/tentang/section";
 import Link from "next/link";
 
 const Page: React.FC = () => {
@@ -16,14 +15,7 @@ const Page: React.FC = () => {
     <div className="">
       <div className="w-full h-full">
         <div className="bg-white md:h-32 h-28"></div>
-        {/* <div className="relative w-full h-60 ">
-          <Image
-            src="/makanan.jpg" // Ganti dengan path gambar Anda
-            alt="Hero Image"
-            fill
-            className="object-cover fixed "
-          />
-        </div> */}
+        
         <div>
           <div className="outline-none border-none relative  overflow-hidden ">
             <div className=" absolute left-[30px] lg:left-[145px] md:left-[70px] lg:max-w-[650px]  md:max-w-[400px] max-w-[250px]  top-[50%] -translate-y-[50%] space-y-2 lg:space-y-4 bg-white/90  p-4 rounded-lg   "> 
@@ -68,7 +60,6 @@ const Page: React.FC = () => {
             </h3>
             <Link href={"/kategori"}>
               <button
-                // onClick={handleClick}
                 className=" px-6 py-1 md:py-3 md:rounded-full rounded-md bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center"
               >
                 <p className="text-white md:text-lg flex justify-between gap-5  items-center text-center ">

@@ -64,37 +64,13 @@ const Contact = () => {
         pesan: "",
       });
     }
-  }, [state.succeeded]); // Menjalankan setiap kali state.succeeded berubah
+  }, [state.succeeded]); 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // // Fungsi untuk menampilkan toast saat form berhasil dikirim
-  // const notifySuccess = () => {
-  //   toast.success("Thanks for contacting us!", {
-  //     style: {
-  //       width: "90%",
-  //       background: "#fff",
-  //       color: "#000",
-  //       padding: "1rem",
-  //       borderRadius: "10px",
-  //       boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-  //     },
-  //     duration: 4000,
-  //   });
-  // };
-
-  // // Ketika form berhasil dikirim, tampilkan toast
-  // const onSubmit = async (event: any) => {
-  //   event.preventDefault();
-  //   await handleSubmit(event);
-  //   if (state.succeeded) {
-  //     notifySuccess();
-  //     event.target.reset();
-  //   }
-  // };
 
   return (
     <div className="w-full max-h-full bg-gray-50">
