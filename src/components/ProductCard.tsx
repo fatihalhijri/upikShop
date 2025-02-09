@@ -81,8 +81,8 @@ const ProductCard: React.FC<propsType> = ({
   rating,
 }) => {
   return (
-    <div className="border border-gray-200 rounded-lg w-full max-w-[440px] h-[350px] shadow-md flex flex-col items-center  justify-between ">
-      <div className="flex items-center justify-center  max-h-1/2  w-full overflow-hidden bg-gray-100">
+    <div className="border border-gray-200 rounded-lg w-full max-w-[440px] h-[280px] md:h-[350px] shadow-md flex flex-col items-center  justify-between ">
+      <div className="flex items-center justify-center  h-1/2  w-full overflow-hidden bg-gray-100">
         <Image
           className=" object-contain w-full h-full"
           src={img}
@@ -92,7 +92,7 @@ const ProductCard: React.FC<propsType> = ({
         ></Image>
       </div>
 
-      <div className="lg:px-4 md:px-3 px-2 py-2 flex flex-col justify-start items-start md:gap-4 sm:gap-3 gap-2 w-full ">
+      <div className="lg:px-4 md:px-3 px-2 py-2 flex flex-col justify-start items-start  gap-2 w-full h-auto  ">
         <div className="">
           <h2 className="text-blackish text-base lg:text-lg md:text-base lg:font-bold md:font-semibold font-medium line-clamp-2">
             {title}
@@ -106,26 +106,34 @@ const ProductCard: React.FC<propsType> = ({
         </div>
         <div className="flex items-center  gap-2">
           <div className="">{generateRating(rating)}</div>
-          <div className="md:text-[14px] text-[11px] text-gray-600 ">({rating})</div>
+          <div className="md:text-[14px] text-[11px] text-gray-600 ">
+            ({rating})
+          </div>
         </div>
-        <div className="flex md:flex-row flex-col  gap-2 justify-between items-center w-full">
+        <div className=" md:flex-row flex-col  gap-2 justify-between items-center w-full hidden md:flex">
           <div className="flex justify-between w-full items-center bg-accent py-2 px-3 rounded-lg ">
-            <p className="lg:text-base md:text-[12px] text-[14px]  text-white">Stok </p>
-            <p className="lg:text-base md:text-[12px] text-[14px]  text-white">({stok})</p>
+            <p className="lg:text-base md:text-[12px] text-[14px]  text-white">
+              Stok{" "}
+            </p>
+            <p className="lg:text-base md:text-[12px] text-[14px]  text-white">
+              ({stok})
+            </p>
           </div>
           <div className="flex w-full flex-row justify-between items-center bg-blue-500 py-2 px-3 rounded-lg text-center   ">
             <p className="lg:text-base md:text-[12px] text-[14px]  text-white text-center">
               simpan
             </p>
-            
 
-            <ShoppingCartIcon
-              height={18}
-              width={18}
-              color="white"
-              />
-              
+            <ShoppingCartIcon height={18} width={18} color="white" />
           </div>
+        </div>
+        <div className=" justify-between w-full items-center  flex md:hidden ">
+          <p className="lg:text-base md:text-[12px] text-[14px]  text-black">
+            Stok{" "}
+          </p>
+          <p className="lg:text-base md:text-[12px] text-[14px]  text-black">
+            ({stok})
+          </p>
         </div>
       </div>
     </div>

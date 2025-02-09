@@ -29,19 +29,19 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
       >
         <div className="">
           <div className="flex flex-col w-fit gap-10 mx-auto font-medium py-4 text-blackish">
-            <Link href="/" className="navbar__link relative" >
+            <Link href="/" className="navbar__link relative text-black" >
               BERANDA
             </Link>
-            <Link href={"/tentang"} className="navbar__link relative">
+            <Link href={"/tentang"} className="navbar__link relative text-black">
               TENTANG
             </Link>
 
            
-            <Link href={"/kategori"} className="navbar__link relative">
+            <Link href={"/kategori"} className="navbar__link relative text-black">
               KATEGORI
             </Link>
 
-            <Link href={"/kontak"} className="navbar__link relative">
+            <Link href={"/kontak"} className="navbar__link relative text-black">
               KONTAK
             </Link>
           </div>
