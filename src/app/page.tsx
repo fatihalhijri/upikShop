@@ -14,10 +14,11 @@ export default function Page() {
       <ReviewSlider />
       <div className="h-full py-20 px-6 md:px-20 lg:px-36">
         <div className="flex justify-center items-center flex-col ">
-          <h2 className="text-primary text-[24px] md:text-[30px] lg:text-[44px] font-bold leading-[1.2] ">
-            Selamat Datang Di UpikShop!
-          </h2>
-          <h3 className="text-gray-800 text-[12px]  md:text-[18px] max-w-xl md:max-w-3xl text-center py-4 ">
+          <header className="text-primary text-[24px] md:text-[30px] lg:text-[44px] font-bold leading-[1.2] text-center ">
+            Selamat Datang Di Upik Shop!
+          </header>
+          <br />
+          <h3 className="text-gray-800 text-[12px]  md:text-[18px] max-w-xl md:max-w-3xl text-center pb-4 ">
             Dapatkan sabun yang sesuai dengan kebutuhan anda.pilih berbagai
             variant sabun kami
           </h3>

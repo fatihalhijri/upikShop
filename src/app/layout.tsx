@@ -11,8 +11,8 @@ import { Metadata } from "next";
 const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "600"] });
 
 export const metadata: Metadata = {
-  title: "Upik Shop - Sunfia",
-  description: "Sunfia - Usaha Jual Sabun Serba Guna berkualitas,sayur,dan buah buahan dengan harga terjangkau pemilik upia kartianti ",
+  title: "Upik Shop | Sunfia",
+  description: "Sunfia | Usaha Jual Sabun Serba Guna berkualitas,sayur,dan buah buahan dengan harga terjangkau ",
 };
 
 export default function RootLayout({
