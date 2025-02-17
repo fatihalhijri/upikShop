@@ -10,9 +10,16 @@ import { Metadata } from "next";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "600"] });
 
-export const metadata: Metadata = {
-  title: "Upik Shop | Sunfia",
-  description: "Sunfia | Usaha Jual Sabun Serba Guna berkualitas,sayur,dan buah buahan dengan harga terjangkau ",
+export const metadata = {
+  title: "Upik Shop - Sunfia",
+  description: "Upik Shop adalah toko online terpercaya dengan berbagai produk terbaik.",
+  keywords: "Upik Shop, Toko Online, Belanja Murah, Produk Terbaik",
+  openGraph: {
+    title: "Upik Shop - Toko Online Terpercaya",
+    description: "Upik Shop adalah toko online terpercaya dengan berbagai produk terbaik.",
+    url: "https://upikshop.com",
+    type: "website"
+  },
 };
 
 export default function RootLayout({

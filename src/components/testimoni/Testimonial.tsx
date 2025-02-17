@@ -22,7 +22,7 @@ const ReviewSlider = () => {
           infinite
           autoPlay
           autoPlaySpeed={3000}
-          arrows
+          
           itemClass="md:px-4"
           className="py-3"
         >
