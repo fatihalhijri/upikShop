@@ -7,14 +7,51 @@ import Auto2 from "@/components/tentang/autoText2";
 import Auto3 from "@/components/tentang/autoText3";
 import Link from "next/link";
 
+import { motion, useSpring, useScroll } from "motion/react";
+
 const Page: React.FC = () => {
   const handleClick = () => {
     window.open("https://wa.me/6287878991905", "_blank");
   };
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
     <div className="">
+      <motion.div
+        className="z-[1000] "
+        id="scroll-indicator"
+        style={{
+          scaleX,
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          height: 4,
+          originX: 0,
+          backgroundColor: "#ff0088",
+        }}
+        animate={{
+          background: [
+            "linear-gradient(90deg, #ff0088, #ffcc00)",
+            "linear-gradient(90deg, #ffcc00, #00ffcc)",
+            "linear-gradient(90deg, #00ffcc, #0099ff)",
+            "linear-gradient(90deg, #0099ff, #ff0088)",
+            "linear-gradient(90deg, #ff0088, #ffcc00)",
+          ],
+        }}
+        transition={{
+          repeat: Infinity,
+          duration: 5,
+          ease: "linear",
+        }}
+      />
       <div className="w-full h-full">
-        <div className="bg-white md:h-32 h-28"></div>
         
         <div>
           <div className="outline-none border-none relative  overflow-hidden ">

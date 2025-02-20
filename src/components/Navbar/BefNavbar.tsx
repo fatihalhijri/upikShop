@@ -7,16 +7,16 @@ import { BiUser } from "react-icons/bi";
 import { FiHeart } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 
-const Nav = () => {
+const BefNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [navSticky, setNavSticky] = useState(false);
 
   useEffect(() => {
     const handler = () => {
-      if (window.scrollY >= 700) {
+      if (window.scrollY >= 30) {
         setNavSticky(true);
       }
-      if (window.scrollY <= 700) {
+      if (window.scrollY <= 30) {
         setNavSticky(false);
       }
     };
@@ -61,11 +61,15 @@ const Nav = () => {
 
   return (
     <nav
-      className={`fixed w-full  ${stickyStyle} ${navOpenStyle} bg-white  transition-all  z-[1000] 
+      className={`${stickyStyle}  bg-white/95 md:bg-none  transition-all w-full
        `}
     >
       <div className="">
-        
+        {/* <div
+        onClick={handleOutsideClick}
+        className={`fixed ${navOpenStyle} top-0 transform transition-all duration-300 z-[10000] left-0 right-0 bottom-0 bg-black opacity-70 w-[100vw] h-[100vh]`}
+      ></div> */}
+        <HeaderTop />
         <div className="" onClick={handleOutsideClick}>
           <div
             className={`flex items-center  h-[8vh] justify-between    z-[10006] px-6 md:px-20 lg:px-36 `}
@@ -243,4 +247,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default BefNavbar;

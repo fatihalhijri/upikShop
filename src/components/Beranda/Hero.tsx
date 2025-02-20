@@ -8,8 +8,8 @@ export default function Hero() {
   };
 
   return (
-    <section className="md:mt-36  w-full mx-auto  md:py-5 px-6 md:px-20 lg:px-36">
-      <div className="flex justify-center md:h-auto h-screen items-center">
+    <section className=" w-full mx-auto  md:py-5 px-6 md:px-20 lg:px-36">
+      <div className="flex justify-center md:h-auto h-[80vh] items-center">
         <div className="flex md:flex-row flex-col-reverse items-center justify-between gap-12">
           {/* Section Text */}
           <div className="w-full lg:w-1/2 lg:text-left md:text-center text-center  flex flex-col">

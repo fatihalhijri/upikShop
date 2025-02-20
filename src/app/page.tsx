@@ -5,9 +5,45 @@ import Hero from "../components/Beranda/Hero";
 import NewProducts from "../components/produk/NewProducts";
 import ReviewSlider from "../components/testimoni/Testimonial";
 
+import { motion, useSpring, useScroll } from "motion/react";
+
 export default function Page() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
   return (
     <section className="">
+      <motion.div
+        className="z-[1000] "
+        id="scroll-indicator"
+        style={{
+          scaleX,
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          height: 4,
+          originX: 0,
+          backgroundColor: "#ff0088",
+        }}
+        animate={{
+          background: [
+            "linear-gradient(90deg, #ff0088, #ffcc00)",
+            "linear-gradient(90deg, #ffcc00, #00ffcc)",
+            "linear-gradient(90deg, #00ffcc, #0099ff)",
+            "linear-gradient(90deg, #0099ff, #ff0088)",
+            "linear-gradient(90deg, #ff0088, #ffcc00)",
+          ],
+        }}
+        transition={{
+          repeat: Infinity,
+          duration: 5,
+          ease: "linear",
+        }}
+      />
       <Hero />
       <HeroSlide />
       <NewProducts />
@@ -23,9 +59,7 @@ export default function Page() {
             variant sabun kami
           </h3>
           <Link href={"/kategori"}>
-            <button
-              className=" px-6 py-1 md:py-3 md:rounded-full rounded-md bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center"
-            >
+            <button className=" px-6 py-1 md:py-3 md:rounded-full rounded-md bg-accent hover:bg-green-700 transition-all duration-300 flex justify-center items-center">
               <p className="text-white md:text-lg flex justify-between gap-5  items-center text-center ">
                 Lihat Sekarang
               </p>
