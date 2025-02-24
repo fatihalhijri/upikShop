@@ -192,7 +192,7 @@ const BefNavbar = () => {
       {isOpen && (
         <div
           id="navbar-menu"
-          className={`lg:hidden relative transform transition-all duration-300 delay-300  backdrop-blur`}
+          className={`lg:hidden absolute transform transition-all duration-300 delay-300  backdrop-blur`}
         >
           <div className="px-6 md:px-20 lg:px-36">
             <div className="flex flex-col w-fit gap-4  font-medium py-4 text-blackish ">
