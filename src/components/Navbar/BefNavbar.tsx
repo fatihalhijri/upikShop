@@ -61,7 +61,7 @@ const BefNavbar = () => {
 
   return (
     <nav
-      className={`${stickyStyle}  bg-white/95 md:bg-none  transition-all w-full
+      className={` bg-white/95 md:bg-none  transition-all w-full
        `}
     >
       <div className="">
@@ -192,7 +192,7 @@ const BefNavbar = () => {
       {isOpen && (
         <div
           id="navbar-menu"
-          className={`lg:hidden absolute transform transition-all duration-300 delay-300  backdrop-blur`}
+          className={`lg:hidden absolute transform transition-all duration-300 delay-300 bg-white w-full backdrop-blur z-10`}
         >
           <div className="px-6 md:px-20 lg:px-36">
             <div className="flex flex-col w-fit gap-4  font-medium py-4 text-blackish ">
