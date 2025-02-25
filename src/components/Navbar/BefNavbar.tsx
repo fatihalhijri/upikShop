@@ -49,7 +49,7 @@ const BefNavbar = () => {
     ? "backdrop-blur-sm  bg-white/95 shadow-black/20 shadow-sm"
     : "";
 
-    const navOpenStyle = navSticky
+  const navOpenStyle = navSticky
     ? "translate-y-0 transition-all duration-300"
     : "translate-y-[-100%] transition-all duration-300";
 
@@ -87,7 +87,6 @@ const BefNavbar = () => {
                   >
                     BERANDA
                   </Link>
-
                   <Link
                     href={"/tentang"}
                     className="navbar__link cursor-pointer relative "
