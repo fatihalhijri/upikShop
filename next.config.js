@@ -14,6 +14,26 @@ const nextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+        {
+            source: '/register',
+            destination: '/auth/register'
+        },
+        {
+            source: '/login',
+            destination: '/auth/login'
+        },
+        {
+            source: '/lupapass',
+            destination: '/auth/lupapass'
+        },
+        
+    ]
+},
+  images: {
+    domains: ['localhost'], // Tambahkan localhost sebagai domain gambar
+  },
 };
 
 module.exports = nextConfig;

@@ -9,7 +9,7 @@ interface propsType {
   img: string;
   title: string;
   desc: string;
-  price: string;
+  price: number;
   stok: number;
   rating: number;
 }
@@ -98,9 +98,9 @@ const ProductCard: React.FC<propsType> = ({
             {title}
           </h2>
           <div className="font-bold flex flex-row md:gap-3 gap-1 items-center text-blackish md:text-base text-sm">
-            Rp.{price}
+            Rp.{Number(price)}
             <del className="text-gray-400 md:font-semibold font-medium md:text-sm text-xs">
-              Rp.{parseInt(price) + 10000}
+              Rp.{price + 10000}
             </del>
           </div>
         </div>
