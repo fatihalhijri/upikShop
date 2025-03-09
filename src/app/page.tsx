@@ -6,6 +6,7 @@ import NewProducts from "../components/produk/NewProducts";
 import ReviewSlider from "../components/testimoni/Testimonial";
 
 import { motion, useSpring, useScroll } from "motion/react";
+import GoogleTagManager from "@/components/GoogleTagManager";
 
 export default function Page() {
   const { scrollYProgress } = useScroll();
@@ -16,6 +17,8 @@ export default function Page() {
   });
   return (
     <section className="">
+      <GoogleTagManager></GoogleTagManager>
+      
       <motion.div
         className="z-[1000] "
         id="scroll-indicator"

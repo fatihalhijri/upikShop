@@ -102,8 +102,8 @@ const productsData = [
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
-    stok: 20,
-    price: "25000",
+    stok: 52,
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -112,7 +112,7 @@ const productsData = [
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -121,7 +121,7 @@ const productsData = [
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -130,7 +130,7 @@ const productsData = [
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -139,7 +139,7 @@ const productsData = [
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -148,7 +148,7 @@ const productsData = [
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -157,7 +157,7 @@ const productsData = [
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -165,8 +165,8 @@ const productsData = [
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
-    stok: 20,
-    price: "25000",
+    stok: 14,
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -174,17 +174,17 @@ const productsData = [
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
     rating: 5,
-    stok: 20,
-    price: "25000",
+    stok: 24,
+    price: "10000",
     category: "Sabun Batang",
   },
   {
     img: "/sabun/sabun-10.webp",
     title: "Sabun Batang Sereh Alami ",
     desc: "Sabun Batang Sereh Alami",
-    rating: 5,
+    rating: 4,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
 
@@ -292,7 +292,7 @@ const SabunBatang = [
     desc: "Sabun Batang SkinCare Extrak Kopi",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -301,7 +301,7 @@ const SabunBatang = [
     desc: "Sabun Batang Rempah-rempah",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -310,7 +310,7 @@ const SabunBatang = [
     desc: "Sabun Batang SkinCare Extrak Kopi",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -319,7 +319,7 @@ const SabunBatang = [
     desc: "Sabun Batang Extrak Tea - UV Friendly",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -328,7 +328,7 @@ const SabunBatang = [
     desc: "Sabun Batang Antibakteri Sulfur",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -337,7 +337,7 @@ const SabunBatang = [
     desc: "Sabun Batang MidCare Sereh Alami",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -346,7 +346,7 @@ const SabunBatang = [
     desc: "Sabun Batang SkinCare Extrak Daun Kelor ",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -355,7 +355,7 @@ const SabunBatang = [
     desc: "Sabun Batang Antiseptik Charcoal",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -364,7 +364,7 @@ const SabunBatang = [
     desc: "Sabun Batang Vit-A Extrak Kulit Naga Original",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
   {
@@ -373,7 +373,7 @@ const SabunBatang = [
     desc: "Sabun Batang Skin Support Extrak Susu ",
     rating: 5,
     stok: 20,
-    price: "25000",
+    price: "10000",
     category: "Sabun Batang",
   },
 ];
