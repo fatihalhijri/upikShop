@@ -89,7 +89,7 @@ const Page: React.FC = () => {
         <div className="h-full bg-gray-100 py-20">
           <div className="flex justify-center items-center flex-col ">
             <h2 className="text-primary text-[24px] md:text-[30px] lg:text-[44px] font-bold leading-[1.2] ">
-              Tunggu Apa Lagi!
+              Tunggu Apa Lagi!p
             </h2>
             <h3 className="text-gray-800 text-[12px]  md:text-[18px] max-w-xl md:max-w-3xl text-center py-4">
               Lihat berbagai macam produk buah-buahan, dan sabun yang segar dan
