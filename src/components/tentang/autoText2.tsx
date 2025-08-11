@@ -1,7 +1,7 @@
 "use client";
 
-import { PercentBadgeIcon, PlusIcon } from "@heroicons/react/16/solid";
-import { animate, motion, useMotionValue, useTransform } from "motion/react";
+import {  PlusIcon } from "@heroicons/react/16/solid";
+import { animate, motion, useMotionValue, useTransform } from "framer-motion";
 import { useEffect } from "react";
 
 export default function Auto2() {

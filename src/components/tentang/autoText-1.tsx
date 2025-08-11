@@ -1,7 +1,7 @@
 "use client";
 
 import { PlusIcon } from "@heroicons/react/16/solid";
-import { animate, motion, useMotionValue, useTransform } from "motion/react";
+import { animate, motion, useMotionValue, useTransform } from "framer-motion";
 import { useEffect } from "react";
 
 export default function Auto1() {
@@ -20,12 +20,17 @@ export default function Auto1() {
           <motion.pre className=" ">{rounded}</motion.pre>
           <span className="md:text-2xl text-base flex justify-center items-center">
             Rb
-            <PlusIcon width={20} height={20} className="md:h-6 md:w-6 h-4 w-4" />
+            <PlusIcon
+              width={20}
+              height={20}
+              className="md:h-6 md:w-6 h-4 w-4"
+            />
           </span>
         </div>
 
-        
-        <h4 className="md:text-base text-sm font-medium text-gray-700 text-center">Pelanggan Senang dan Bahagia</h4>
+        <h4 className="md:text-base text-sm font-medium text-gray-700 text-center">
+          Pelanggan Senang dan Bahagia
+        </h4>
       </div>
     </>
   );
